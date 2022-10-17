@@ -23,3 +23,21 @@ div a img
     height: 3rem !important;
     margin-inline: 1.5rem;
 }
+@media (max-width:735px) {
+    h1{
+        font-size: 4rem;
+    }
+}
+@media (max-width:500px) {
+    h1{
+        font-size: 3rem;
+    }
+}
+@media (max-width:395px) {
+    h1{
+        font-size: 2rem;
+    }
+    img{
+        height: 25vh;
+    }
+}
