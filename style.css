@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    background: url(./BG.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 50vh;
+}
+h1{
+    font-size: 6rem;
+    color: white;
+    font-family: sans-serif;
+    line-height: 4rem;
+}
+div a img
+{
+    height: 3rem !important;
+    margin-inline: 1.5rem;
+}
